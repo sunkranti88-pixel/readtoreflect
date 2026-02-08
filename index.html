@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Read to Reflect - A peaceful book reading club for children focusing on calm, focus, and mindful reflection.">
+    <meta name="theme-color" content="#E8D4C4">
+    <title>Read to Reflect | Children's Book Reading Club</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Skip to content link (accessibility) -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+
+    <!-- Navigation -->
+    <nav class="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="#home" class="logo" data-section="home">
+                <svg class="logo-icon" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <!-- Open book with leaf -->
+                    <path d="M 20 30 Q 20 20 30 20 L 50 20 L 50 70 L 30 70 Q 20 70 20 60 Z" fill="#D4A574" opacity="0.8"/>
+                    <path d="M 80 30 Q 80 20 70 20 L 50 20 L 50 70 L 70 70 Q 80 70 80 60 Z" fill="#C8E6C9" opacity="0.8"/>
+                    <circle cx="50" cy="45" r="4" fill="#9C7A5C"/>
+                    <!-- Decorative circle -->
+                    <circle cx="50" cy="50" r="35" fill="none" stroke="#D4A574" stroke-width="2" opacity="0.5"/>
+                </svg>
+                <span class="logo-text">Read to Reflect</span>
+            </a>
+            <button class="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link active" data-section="home">Home</a></li>
+                <li><a href="#about" class="nav-link" data-section="about">About</a></li>
+                <li><a href="#sessions" class="nav-link" data-section="sessions">Sessions</a></li>
+                <li><a href="#founder" class="nav-link" data-section="founder">Founder</a></li>
+                <li><a href="#contact" class="nav-link" data-section="contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main id="main-content">
+        <!-- Home Section -->
+        <section id="home" class="section home-section active" role="region" aria-label="Home">
+            <div class="container">
+                <div class="home-content">
+                    <h1 class="fade-in">Read to Reflect</h1>
+                    <p class="subtitle fade-in">A sanctuary where children discover the transformative power of quiet reading</p>
+                    <p class="home-description fade-in">In a world of constant noise, we create a peaceful space where young readers slow down, focus deeply, and connect meaningfully with stories that matter to them.</p>
+                    <button class="cta-button fade-in" data-section="sessions" aria-label="Learn how sessions work">
+                        <span>How It Works</span>
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="5 12 19 12"></polyline>
+                            <polyline points="12 5 19 12 12 19"></polyline>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about-section" role="region" aria-label="About us">
+            <div class="container">
+                <h2>About Read to Reflect</h2>
+                <p class="section-subtitle">Our philosophy on reading and child development</p>
+                
+                <div class="about-grid">
+                    <div class="about-card">
+                        <div class="card-icon-wrapper">
+                            <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <path d="M12 6v6l4 2"></path>
+                            </svg>
+                        </div>
+                        <h3>Our Mission</h3>
+                        <p>To cultivate a generation of thoughtful, confident readers who understand that books are gateways to self-discovery and growth.</p>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="card-icon-wrapper">
+                            <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+                                <line x1="7" y1="7" x2="7.01" y2="7"></line>
+                            </svg>
+                        </div>
+                        <h3>Core Values</h3>
+                        <p>Calmness over chaos. Focus over distraction. Reflection over rushing. Every child deserves an environment where deep thinking is celebrated.</p>
+                    </div>
+
+                    <div class="about-card">
+                        <div class="card-icon-wrapper">
+                            <svg class="card-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+                            </svg>
+                        </div>
+                        <h3>Our Approach</h3>
+                        <p>Gentle guidance, curated literature, and safe spaces for dialogue create conditions where children fall in love with reading authentically.</p>
+                    </div>
+                </div>
+
+                <div class="about-full">
+                    <h3>What Sets Us Apart</h3>
+                    <p>Read to Reflect isn't just another children's program—it's a deliberate counter-movement to the noise and distraction of modern childhood. We celebrate quiet. We honor focus. We believe that in moments of silence and reflection, children discover who they truly are.</p>
+                    <p>Our reading circle is designed for thoughtful children who crave calm, who ask questions, and who grow through reflection. It's a place where every voice matters, every question is valid, and every child is seen.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sessions Section -->
+        <section id="sessions" class="section sessions-section" role="region" aria-label="How sessions work">
+            <div class="container">
+                <h2>How a Session Works</h2>
+                <p class="section-subtitle">A carefully designed experience for focused, peaceful reading</p>
+
+                <div class="sessions-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-number">01</div>
+                        <div class="timeline-content">
+                            <h3>Arrival & Centering</h3>
+                            <p>Children arrive in our welcoming space. We begin with gentle breathing to transition from the outside world and prepare our minds for reading.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-number">02</div>
+                        <div class="timeline-content">
+                            <h3>Book Selection</h3>
+                            <p>From a thoughtfully curated collection, each child chooses a book that speaks to them. We honor their reading level and interests without judgment.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-number">03</div>
+                        <div class="timeline-content">
+                            <h3>Sacred Reading Time</h3>
+                            <p>In complete silence, children immerse themselves in their stories. No interruptions. No rushing. Just the magic of focused reading and imagination.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-number">04</div>
+                        <div class="timeline-content">
+                            <h3>Reflection Circle</h3>
+                            <p>In a safe, non-judgmental space, children share their thoughts, feelings, and discoveries. This dialogue deepens their connection to stories and each other.</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-number">05</div>
+                        <div class="timeline-content">
+                            <h3>Closing Gratitude</h3>
+                            <p>We end by honoring the unique journey each child experienced. Gratitude for stories, for silence, for each other. Until we meet again.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="session-highlights">
+                    <h3>What Your Child Gains</h3>
+                    <div class="highlights-grid">
+                        <div class="highlight-item">
+                            <svg class="highlight-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+                                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+                            </svg>
+                            <h4>Literary Growth</h4>
+                            <p>Exposure to quality literature that expands vocabulary, imagination, and critical thinking.</p>
+                        </div>
+                        <div class="highlight-item">
+                            <svg class="highlight-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm3.5-9c.83 0 1.5-.67 1.5-1.5S16.33 8 15.5 8 14 8.67 14 9.5s.67 1.5 1.5 1.5zm-7 0c.83 0 1.5-.67 1.5-1.5S9.33 8 8.5 8 7 8.67 7 9.5 7.67 11 8.5 11z"></path>
+                            </svg>
+                            <h4>Emotional Intelligence</h4>
+                            <p>Stories help children understand and process emotions, developing empathy and self-awareness.</p>
+                        </div>
+                        <div class="highlight-item">
+                            <svg class="highlight-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2c5.523 0 10 4.477 10 10s-4.477 10-10 10S2 17.523 2 12 6.477 2 12 2z"></path>
+                            </svg>
+                            <h4>Focus & Calm</h4>
+                            <p>Regular practice in sustained attention builds concentration skills and inner peace in an age of distraction.</p>
+                        </div>
+                        <div class="highlight-item">
+                            <svg class="highlight-icon" viewBox="0 0 24 24" fill="currentColor">
+                                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"></path>
+                            </svg>
+                            <h4>Confidence & Voice</h4>
+                            <p>A safe circle where thoughts are valued teaches children to trust their perspectives and express themselves.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Founder Section -->
+        <section id="founder" class="section founder-section" role="region" aria-label="About our founder">
+            <div class="container">
+                <h2>Meet the Founder</h2>
+                <p class="section-subtitle">The vision behind Read to Reflect</p>
+                
+                <div class="founder-card">
+                    <div class="founder-header">
+                        <h3>Sankranti</h3>
+                        <p class="founder-title">Founder & Guide</p>
+                    </div>
+                    
+                    <div class="founder-story">
+                        <p>Sankranti created Read to Reflect from a simple observation: children thrive when given space to breathe, think, and connect deeply with stories.</p>
+                        
+                        <p>With deep conviction in the transformative power of quiet reading and mindful reflection, Sankranti designed this club as something rare—a genuine sanctuary where children can slow down, think clearly, and discover themselves through literature.</p>
+                        
+                        <p>Every session is rooted in a singular philosophy: a calm child is a confident child, reflection leads to growth, and in the gentle act of reading, we find both ourselves and community.</p>
+
+                        <blockquote class="founder-quote">
+                            "In silence and stillness, children find their voice. In reflection, they find themselves."
+                        </blockquote>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact-section" role="region" aria-label="Get in touch">
+            <div class="container">
+                <h2>Join Read to Reflect</h2>
+                <p class="section-subtitle">We'd love to welcome your child into our reading community</p>
+
+                <div class="contact-content">
+                    <div class="contact-form-container">
+                        <form class="contact-form" id="contactForm" novalidate>
+                            <div class="form-group">
+                                <label for="name">Child's Name <span aria-label="required">*</span></label>
+                                <input 
+                                    type="text" 
+                                    id="name" 
+                                    name="name" 
+                                    required 
+                                    aria-required="true"
+                                    placeholder="Full name">
+                                <span class="error-message" id="name-error"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="parent-name">Parent/Guardian Name <span aria-label="required">*</span></label>
+                                <input 
+                                    type="text" 
+                                    id="parent-name" 
+                                    name="parentName" 
+                                    required 
+                                    aria-required="true"
+                                    placeholder="Your name">
+                                <span class="error-message" id="parent-name-error"></span>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address <span aria-label="required">*</span></label>
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    name="email" 
+                                    required 
+                                    aria-required="true"
+                                    placeholder="your@email.com">
+                                <span class="error-message" id="email-error"></span>
+                            </div>
+
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="age">Child's Age <span aria-label="required">*</span></label>
+                                    <input 
+                                        type="number" 
+                                        id="age" 
+                                        name="age" 
+                                        min="4" 
+                                        max="18" 
+                                        required 
+                                        aria-required="true"
+                                        placeholder="Age">
+                                    <span class="error-message" id="age-error"></span>
+                                </div>
+
+                                <div class="form-group">
+                                    <label for="interest">Reading Interest</label>
+                                    <select id="interest" name="interest">
+                                        <option value="">Select an interest...</option>
+                                        <option value="fantasy">Fantasy & Adventure</option>
+                                        <option value="mystery">Mystery & Suspense</option>
+                                        <option value="realistic">Realistic Fiction</option>
+                                        <option value="poetry">Poetry & Short Stories</option>
+                                        <option value="mixed">Mixed Interests</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Tell us about your child <span aria-label="required">*</span></label>
+                                <textarea 
+                                    id="message" 
+                                    name="message" 
+                                    rows="5" 
+                                    required 
+                                    aria-required="true"
+                                    placeholder="What matters to you about your child's reading experience?"></textarea>
+                                <span class="error-message" id="message-error"></span>
+                            </div>
+
+                            <button type="submit" class="submit-button" aria-label="Send enquiry">
+                                <span>Send Enquiry</span>
+                                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                                </svg>
+                            </button>
+                        </form>
+
+                        <div id="formMessage" class="form-message" role="alert"></div>
+                    </div>
+
+                    <div class="contact-info">
+                        <h3>Why Families Choose Us</h3>
+                        <ul class="benefits-list">
+                            <li>Proven focus on calm, mindful reading practices</li>
+                            <li>Age-appropriate, high-quality literature</li>
+                            <li>Safe, judgment-free community space</li>
+                            <li>Development of critical thinking and emotional intelligence</li>
+                            <li>Lasting friendships built through shared love of reading</li>
+                            <li>Expert guidance from an experienced founder</li>
+                        </ul>
+
+                        <div class="faq-preview">
+                            <h4>Common Questions</h4>
+                            <dl>
+                                <dt>What ages can join?</dt>
+                                <dd>We welcome children ages 6–16. Each group is thoughtfully age-matched.</dd>
+                                
+                                <dt>How long are sessions?</dt>
+                                <dd>Sessions are 60 minutes, carefully paced for engagement without overwhelm.</dd>
+                                
+                                <dt>Do children need prior reading experience?</dt>
+                                <dd>Not at all. We meet every child exactly where they are and nurture from there.</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>Read to Reflect</h4>
+                    <p>Where children discover that books change everything.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Values</h4>
+                    <ul>
+                        <li>Calm over chaos</li>
+                        <li>Focus over distraction</li>
+                        <li>Reflection over rushing</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Read to Reflect. Crafted with intention for young readers.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
